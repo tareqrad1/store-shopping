@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# 🛍️ React Product Catalog with Filtering & Sorting
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive product catalog built with **React**, **TypeScript**, and **Tailwind CSS**, featuring dynamic filtering and sorting powered by **Context API** and **custom hooks**. Data is fetched from the [DummyJSON Products API](https://dummyjson.com/products).
 
-Currently, two official plugins are available:
+This project demonstrates efficient state management and UI responsiveness for handling large datasets in a clean, user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 📦 Fetch products dynamically from a public REST API  
+- 🔍 Filter products by category, price range, and search keywords  
+- ↕️ Sort products by price, rating, and popularity  
+- ⚛️ Global state management with **React Context API** + **Custom Hooks**  
+- 🎨 Fully responsive UI styled with **Tailwind CSS**  
+- 🧩 Component-based architecture for scalability and reusability  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧰 Tech Stack
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<div align="center" style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="70" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript" width="70" />
+  <img src="https://tailwindcss.com/_next/static/media/tailwindcss-logotype.1345e868bfc6a82b3d94e2e06d9c2e31.svg" alt="Tailwind CSS" width="120" />
+</div>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📸 Screenshots
