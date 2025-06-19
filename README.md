@@ -22,7 +22,6 @@ This project demonstrates efficient state management and UI responsiveness for h
 <div align="center" style="display: flex; gap: 20px; flex-wrap: wrap;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="70" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript" width="70" />
-![Tailwind CSS](https://tailwindcss.com/_next/static/media/tailwindcss-logotype.1345e868bfc6a82b3d94e2e06d9c2e31.svg)
 </div>
 
 ---
